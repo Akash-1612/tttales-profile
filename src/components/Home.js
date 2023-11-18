@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./navbar";
 import './css/Home.css';
-import Cover from '../components/images/img.jpg';
+import Cover from '../components/images/cover.jpg';
 import Profile from '../components/images/prof.jpeg';
 import Star from '../components/images/star.png';
 import Like from '../components/images/like.png';
@@ -13,6 +13,9 @@ import Tales from './tales';
 
 
 function Home() {
+
+
+
     return (
         <div>
 
