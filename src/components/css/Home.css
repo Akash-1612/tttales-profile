@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 .cover {
     width: 100%;
@@ -23,20 +23,28 @@
 
 .prof-details {
     margin-left: 20%;
-    font-family: 'Eagle Lake', serif;
-    font-family: 'Work Sans', sans-serif;
+}
+
+.prof-details h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 27px;
 }
 
 .fol-btn {
     margin-left: 20%;
+    display: flex;
     font-family: 'Eagle Lake', serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 
 .fol-btn button {
     border: 2px solid #000;
     height: 40px;
     width: 100px;
+    margin-right: 20px;
     background-color: #fff;
     color: #000;
     border-radius: 10px;
@@ -45,4 +53,53 @@
     cursor: pointer;
     font-family: 'Eagle Lake', serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.lbl {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.lbl span {
+    margin: 0 40px 0 25px;
+    font-size: 12px;
+}
+
+.bio h3{
+    margin: 50px 0 0 90px;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.bio a {
+    margin: 50px 0 0 90px;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bio a:hover {
+    text-decoration: underline !important; 
+    color: #ffc23e;
+}
+
+.icons {
+    display: flex;
+    margin: 15px 0 0 100px;
+    cursor: pointer;
+}
+
+.icons span {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 5px;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.png {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 0 5px;
 }
