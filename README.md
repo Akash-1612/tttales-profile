@@ -1,4 +1,4 @@
-#A Sample React Application for Profile Page.
+# A Sample React Application for Profile Page.
 
 This is a React JS application, for a profile page. Created with responsiveness in mind, the site can render effectively in most of the common mobile devices. 
 There are 3 components working in this project. 
