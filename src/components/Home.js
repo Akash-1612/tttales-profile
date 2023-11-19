@@ -60,6 +60,10 @@ function Home() {
                 <span title="Heart"><img src={Heart} alt="Heart" className="png" /> 69K</span>
             </div>
 
+            <div className="tag">
+                <h1>119 Tales </h1>
+            </div>
+
             <div>
                 <Tales />
             </div>

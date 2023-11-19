@@ -1,64 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
-
-.tales {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-
-  .tales h1 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-
-  .tales p {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-  }
-  
-
-  .tales .meta {
+.tales-card {
     display: flex;
-    justify-content: space-between;
-    color: #555;
-    font-size: 0.9em;
-  }
-  
-
-  .tales .date {
-    margin-right: 10px;
-  }
-  
-  .tales .time {
-    margin-right: 10px;
-  }
-  
-  .tales .views {
-    color: #ff5733; 
-  }
-  
-  .tales-card {
+    flex-direction: column; 
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    position: relative; 
+}
+
+.like-png {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    width: 30px;
+    height: 30px;
 }
 
 .tales-card h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .tales-card p {
     font-size: 1.2em;
     margin-bottom: 15px;
+    font-family: 'Baloo 2', sans-serif;
 }
 
 .tales-card .meta {
@@ -69,13 +41,19 @@
 }
 
 .tales-card .date {
-    margin-right: 10px;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .tales-card .time {
     margin-right: 10px;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .tales-card .views {
     color: #ff5733;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
